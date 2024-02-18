@@ -6,3 +6,14 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: rkeops
+Version: 2.2.2
+Imports: checkmate, data.table, future, lifecycle, Rdpack, reticulate, RhpcBLASctl, stats,
+          stringi, stringr, tibble, utils
+Suggests: dplyr, ggplot2, knitr, plotly, pracma, remotes, reshape, rmarkdown, testthat (>=
+          3.0.0), withr
+License: MIT + file LICENSE
+OS_type: unix
+MD5sum: 5c7c95cc958ab1476699ba440dbf105a
+NeedsCompilation: no
